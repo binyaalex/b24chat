@@ -56,6 +56,7 @@
 
 .fitnessSquareContainer {
   height: 80vh;
+  margin-bottom: 10px
 }
 
 .fitnessSquare {
@@ -94,14 +95,15 @@
   display: flex;
   align-items: center;
   width: 100%;
-  margin-top: 25px;
-  padding: 0 10px;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 10px;
+  position: relative;
 }
 
 .footer > * {
   font-size: 20px;
   color: #77838F;
-  margin-right: 30px;
+  margin-right: 27px;
 }
 
 .sos {
@@ -115,9 +117,13 @@
 
 .comments {
   font-size: 25px;
-  /*border: 5px solid #BF2C7D;*/
+  border: 5px solid #BF2C7D;
   border-radius: 50%;
   padding: 10px;
   background-color: #BF2C7D;
   color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
 }
