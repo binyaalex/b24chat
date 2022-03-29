@@ -4,7 +4,7 @@ const FitnessSquareContainer = () => {
 	const containerArr = [
 		{
 			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
-			text: 'yoga'
+			text: 'breath'
 		},
 		{
 			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
@@ -12,11 +12,11 @@ const FitnessSquareContainer = () => {
 		},
 		{
 			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
-			text: 'yoga'
+			text: 'stretching'
 		},
 		{
 			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
-			text: 'yoga'
+			text: 'workout'
 		},
 	]
 

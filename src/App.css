@@ -66,7 +66,9 @@
   border-radius: 10px;
   background-size: cover;
   position: relative;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  background-position: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .fitnessSquareHeader {
@@ -98,6 +100,7 @@
   padding: 10px 10px 0 10px;
   margin-bottom: 10px;
   position: relative;
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
 }
 
 .footer > * {
@@ -116,14 +119,14 @@
 }
 
 .comments {
-  font-size: 25px;
+  font-size: 30px;
   border: 5px solid #BF2C7D;
   border-radius: 50%;
   padding: 10px;
   background-color: #BF2C7D;
   color: white;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   right: 0;
   margin: 0;
 }
