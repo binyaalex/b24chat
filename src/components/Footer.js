@@ -6,7 +6,7 @@ const Footer = () => {
 			<i class="fas fa-solid fa-book"></i>
 			<i class="fas fa-regular fa-bell"></i>
 			<i class="fas fa-solid fa-user"></i>
-			<i class="fas fa-regular fa-comments comments"></i>
+			{/*<i class="fas fa-regular fa-comments comments"></i>*/}
 		</footer>
 	)
 }
