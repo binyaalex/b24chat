@@ -4,7 +4,7 @@ import FitnessSquare from './components/FitnessSquare'
 function App() {
 	return (
 		<>
-			<FitnessSquare />
+			<FitnessSquare img='url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)' text='yoga' />
 		</>
 	)
 }

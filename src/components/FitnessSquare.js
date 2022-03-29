@@ -1,7 +1,7 @@
-const FitnessSquare = ({}) => {
+const FitnessSquare = ({img, text}) => {
 	return (
-		<main className='fitnessSquare' style={{backgroundImage: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)'}} >
-			<h1 className='fitnessSquareHeader' >yoga</h1>
+		<main className='fitnessSquare' style={{backgroundImage: img}} >
+			<h1 className='fitnessSquareHeader' >{text}</h1>
 		</main>
 	)
 }
