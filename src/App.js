@@ -1,6 +1,7 @@
 import './App.css';
 import Head from './components/Head'
 import FitnessSquareContainer from './components/FitnessSquareContainer'
+import Notifications from './components/Notifications'
 import Footer from './components/Footer'
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
 		<div className='fitnessPageDad' >
 			<div className='fitnessPage' >
 				<Head text='fitness' />
-				<FitnessSquareContainer img='url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)' text='yoga' />
+				{/*<FitnessSquareContainer />*/}
+				<Notifications />
 				<Footer />
 			</div>
 		</div>
