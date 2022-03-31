@@ -1,12 +1,12 @@
-const NotificationsSquare = ({img, text}) => {
+const NotificationsSquare = ({img, massage, date}) => {
 	return (
 		<section className='NotificationsSquare' >
 			<div className='NotificationsImgDiv' >
-				<img className='NotificationsImg' src='https://cdn5.vectorstock.com/i/1000x1000/77/54/doctor-vector-677754.jpg' />
+				<img className='NotificationsImg' src={img} />
 			</div>
 			<div className='NotificationsTextDiv' >
-				<h1 className='NotificationsTextHeader' >Congratulations! your baby is 6 weeks old today!</h1>
-				<date className='NotificationsTextDate' >Today, 11:00 am</date>
+				<h1 className='NotificationsTextMassage' >{massage}</h1>
+				<date className='NotificationsTextDate' >{date}</date>
 			</div>
 			<button className='NotificationsBtn' >ok</button>
 		</section>

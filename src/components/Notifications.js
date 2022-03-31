@@ -3,20 +3,19 @@ import NotificationsSquare from './NotificationsSquare'
 const Notifications = () => {
 	const containerArr = [
 		{
-			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
-			text: 'breath'
+			img: 'https://cdn5.vectorstock.com/i/1000x1000/77/54/doctor-vector-677754.jpg',
+			massage: 'Congratulations! your baby is 6 weeks old today!',
+			date: 'Today, 11:00 am',
 		},
 		{
-			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
-			text: 'yoga'
+			img: 'https://cdn5.vectorstock.com/i/1000x1000/77/54/doctor-vector-677754.jpg',
+			massage: 'You have booked an online consultation with a doctor Hanna Smith',
+			date: '15 Mar 2022, 12:30 am',
 		},
 		{
-			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
-			text: 'stretching'
-		},
-		{
-			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
-			text: 'workout'
+			img: 'https://cdn5.vectorstock.com/i/1000x1000/77/54/doctor-vector-677754.jpg',
+			massage: 'Time to take your medicine! B12 Vitamin',
+			date: '14 Mar 2022, 08:10 am',
 		},
 	]
 
@@ -25,7 +24,7 @@ const Notifications = () => {
 			{
 				containerArr.map((el, i) => {
 					return (
-						<NotificationsSquare img={el.img} text={el.text} /> 
+						<NotificationsSquare img={el.img} massage={el.massage} date={el.date} /> 
 					)
 				})
 			}
