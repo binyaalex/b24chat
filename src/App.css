@@ -133,7 +133,7 @@
 }
 
 .notifications {
-  background-color: #f7f7f7;
+  background-image: linear-gradient(to right, #FAFAFA , #F7F7F7, #FAFAFA);
 }
 
 .NotificationsSquare {
@@ -147,6 +147,7 @@
   border-radius: 50%;
   height: 65px;
   width: 65px;
+  margin-right: 10px;
 }
 
 .NotificationsTextMassage {

@@ -1,4 +1,4 @@
-const NotificationsSquare = ({img, massageBeforeBold, bold, massageAfterBold, date}) => {
+const NotificationsSquare = ({img, massageBeforeBold, bold, massageAfterBold, date, btn}) => {
 	console.log(massageAfterBold)
 	return (
 		<section className='NotificationsSquare' >
@@ -9,7 +9,7 @@ const NotificationsSquare = ({img, massageBeforeBold, bold, massageAfterBold, da
 				<h1 className='NotificationsTextMassage' >{massageBeforeBold} <span className='NotificationsTextMassageSpan'>{bold}</span> {massageAfterBold}</h1>
 				<date className='NotificationsTextDate' >{date}</date>
 			</div>
-			<button className='NotificationsBtn' >ok</button>
+			<button className='NotificationsBtn' >{btn}</button>
 		</section>
 	)
 }
