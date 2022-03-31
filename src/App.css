@@ -101,7 +101,8 @@
   width: 100%;
   padding: 10px 10px 0 10px;
   margin-bottom: 10px;
-  position: relative;
+  position: absolute;
+  bottom: 0;
   box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
 }
 
@@ -129,4 +130,43 @@
   position: relative;
   bottom: 20px;
   margin: 0;
+}
+
+.Notifications {
+  background-color: #f7f7f7;
+}
+
+.NotificationsSquare {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px 20px;
+}
+
+.NotificationsImg {
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+}
+
+.NotificationsTextHeader {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.NotificationsTextDate {
+  color: #9BA1A8;
+  font-size: 12px;
+}
+
+.NotificationsBtn {
+  position: relative;
+  height: 25px;
+  width: 100px;
+  bottom: -35px;
+  border-radius: 7px;
+  border: 0;
+  background-image: linear-gradient(to right, #D591B7 , #C33B86);
+  color: white;
+  text-transform: uppercase;
 }
