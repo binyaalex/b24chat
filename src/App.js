@@ -1,19 +1,18 @@
 import './App.css';
-import Head from './components/Head'
-import FitnessSquareContainer from './components/FitnessSquareContainer'
-import Notifications from './components/Notifications'
-import Footer from './components/Footer'
+import RegularPage from './components/RegularPage'
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
 	return (
-		<div className='fitnessPageDad' >
-			<div className='fitnessPage' >
-				<Head text='fitness' />
-				{/*<FitnessSquareContainer />*/}
-				<Notifications />
-				<Footer />
-			</div>
-		</div>
+    <BrowserRouter>
+        <Routes>
+            <Route path='/regularpage/*' element={<RegularPage />} />
+        </Routes>
+    </BrowserRouter>
 	)
 }
 
