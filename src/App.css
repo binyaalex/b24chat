@@ -132,7 +132,7 @@
   margin: 0;
 }
 
-.Notifications {
+.notifications {
   background-color: #f7f7f7;
 }
 
@@ -169,4 +169,8 @@
   background-image: linear-gradient(to right, #D591B7 , #C33B86);
   color: white;
   text-transform: uppercase;
+}
+
+.NotificationsTextMassageSpan {
+  color: #BF2C7D;
 }
