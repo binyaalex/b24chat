@@ -30,7 +30,7 @@ const MyBaby = ({setPageInfo}) => {
 					</div>
 				</main>
 			</section>
-			<section className='mybabySection' >
+			<section className='mybabySection mybabySection3' >
 				<MyBabyDate day='27' month='mar' />
 				<main className='mybabySectionMain' >
 					<img className='mybabySection3Img' src='/yoga.jpg' />
@@ -47,7 +47,10 @@ const MyBaby = ({setPageInfo}) => {
 				</main>
 			</section>
 			<section className='mybabySection mybabySection4' >
-				<MyBabyDate day='04' month='apr' />
+				<div className='lastDate' >
+					<MyBabyDate num='4' day='04' month='apr' />
+					<img src="/cross.png" width='30px' />
+				</div>
 				<main className='mybabySectionMain mybabySectionMain4' >
 					<h1 className='mybabySection4Header' >You have booked an online consultation with a doctor</h1>
 					<button className='mybabySection4Btn' >></button>
