@@ -4,9 +4,9 @@ import {
 } from "react-router-dom";
 import React, { useState } from 'react';
 import Head from './Head'
-import MyBaby from './MyBaby'
-import FitnessSquareContainer from './FitnessSquareContainer'
-import Notifications from './Notifications'
+import MyBaby from './mybaby/MyBaby'
+import FitnessSquareContainer from './fitness/FitnessSquareContainer'
+import Notifications from './notifications/Notifications'
 import Footer from './Footer'
 
 const RegularPage = () => {
@@ -15,14 +15,6 @@ const RegularPage = () => {
 
 	return (
 		<div className='PageDad' >
-{/*			<div className='fitnessPage' >
-				<Head text='fitness' />
-	            	<Routes>
-	            		<Route path='/fitness' element={<FitnessSquareContainer />} />
-	            		<Route path='/notifications' element={<Notifications />} />
-	            	</Routes>
-				<Footer />
-			</div>*/}
 			<div className={pageInfo.className} >
 				<Head text={pageInfo.header} />
 	            	<Routes>

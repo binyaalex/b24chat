@@ -85,7 +85,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 10px 12px 10px;
+  padding: 12px 10px;
   text-transform: capitalize;
   width: 100%;
 }
@@ -191,6 +191,8 @@
 
 .mybabyPage {
   max-width: 412px;
+  padding: 20px;
+  border: 1px solid gray;
 }
 
 .mybabySection {
@@ -211,7 +213,7 @@
   flex-direction: column;
   color: #BF2C7D;
   text-align: center;
-  padding: 0 20px;
+  padding-right: 20px;
 }
 
 .MyBabyDateDay {
@@ -317,6 +319,14 @@
 
 .star {
   color: #BF2C7D;
+}
+
+.myBaby {
+  overflow-y: scroll;
+}
+
+.myBaby::-webkit-scrollbar {
+    width: 0;
 }
 
 .mybabySectionMain4 {

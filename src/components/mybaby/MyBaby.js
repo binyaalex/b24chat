@@ -8,7 +8,7 @@ const MyBaby = ({setPageInfo}) => {
 	},[]);
 
 	return (
-		<>
+		<div className='myBaby' >
 			<section className='mybabySection' >
 				<MyBabyDate day='28' month='feb' />
 				<main className='mybabySectionMain mybabySectionMain1' >
@@ -53,7 +53,7 @@ const MyBaby = ({setPageInfo}) => {
 					<button className='mybabySection4Btn' >></button>
 				</main>
 			</section>
-		</>
+		</div>
 	)
 }
 

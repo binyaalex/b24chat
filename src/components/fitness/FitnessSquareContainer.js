@@ -1,6 +1,11 @@
+import React, { useEffect } from 'react';
 import FitnessSquare from './FitnessSquare'
 
-const FitnessSquareContainer = () => {
+const FitnessSquareContainer = ({setPageInfo}) => {
+	useEffect(() => {
+		setPageInfo({header: 'Fitness', className: 'fitnessPage'})
+	},[]);
+
 	const containerArr = [
 		{
 			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',

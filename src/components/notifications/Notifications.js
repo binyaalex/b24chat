@@ -1,6 +1,12 @@
+import React, { useEffect } from 'react';
 import NotificationsSquare from './NotificationsSquare'
 
-const Notifications = () => {
+const Notifications = ({setPageInfo}) => {
+
+	useEffect(() => {
+		setPageInfo({header: 'Notifications', className: 'notificationsPage'})
+	},[]);
+
 	const containerArr = [
 		{
 			img: 'https://cdn5.vectorstock.com/i/1000x1000/77/54/doctor-vector-677754.jpg',
