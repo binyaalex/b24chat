@@ -1,9 +1,9 @@
 const Head = ({text}) => {
 	return (
 		<div className='head' >
-			<i class="fas fa-solid fa-bars"></i>
+			<img className='menu' src="/menu.png" width='19px' />
 			<h1 className='headHeader' >{text}</h1>
-			<i class="fas fa-regular fa-bell"></i>
+			<img className='bell' src="/bell.png" width='19px' />
 		</div>
 	)
 }

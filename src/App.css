@@ -39,6 +39,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Poppins';
   margin: 0;
 }
 
@@ -85,13 +86,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 10px;
-  text-transform: capitalize;
+  padding: 2px 11px;
   width: 100%;
 }
 
 .head > * {
   font-size: 14px;
+}
+
+.headHeader {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.0625em;
+  line-height: 28px;
 }
 
 .footer {
@@ -190,8 +197,9 @@
 }
 
 .mybabyPage {
-  max-width: 412px;
-  padding: 20px;
+  max-width: 428px;
+  max-height: 926px;
+  padding: 38px 21px;
   border: 1px solid gray;
 }
 
@@ -236,7 +244,7 @@
 }
 
 .mybabySection1Img {
-  height: 90px;
+  height: 100px;
   border-radius: 50%;
   margin-right: 40px;
 }
@@ -246,27 +254,31 @@
 }
 
 .mybabySection1TextHeader {
-  font-weight: 600;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
 }
 
 .mybabySection1TextP {
-  opacity: 50%;
+    font-size: 18px;
+    color: #D591B7;
+    line-height: 25px;
 }
 
 .mybabySection1TextBtn {
-  background-color: #BF2C7D;
+  background-color: #D591B7;
+  width: 105px;
+  height: 21px;
   border: 0;
   border-radius: 15px;
   color: white;
-  padding: 5px 25px;
-  font-size: 12px;
+  font-size: 10px;
   margin: 10px 0;
-  opacity: 50%;
 }
 
 .mybabySection2MainImg {
-  height: 250px;
-  width: 150px;
+  height: 264px;
+  width: 158px;
   border-radius: 10px;
   margin-right: 15px;
 }
@@ -330,7 +342,7 @@
 }
 
 .mybabySectionMain4 {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBBH7DEugFGEbh-SHhf_F0HTvFpQzfWy-dA&usqp=CAU');
+  background-image: url('meeting.jpg');
   height: 160px;
   border-radius: 10px;
   background-size: cover;
@@ -357,4 +369,5 @@
 
 .mybabySectionMain4 {
   padding: 10px;
+  color: white;
 }
