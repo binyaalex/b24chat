@@ -107,12 +107,13 @@
   justify-content: space-between;
   width: 100%;
   padding: 0 10px;
-  margin-bottom: 10px;
-  position: absolute;
+  /* margin-bottom: 10px; */
+  position: fixed;
   bottom: 0;
   box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
-  max-width: 250px;
-  display: none;
+  max-width: 426px;
+  z-index: 1;
+  background-color: white;
 }
 
 .footer > * {
