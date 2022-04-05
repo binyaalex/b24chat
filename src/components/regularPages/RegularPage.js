@@ -15,7 +15,7 @@ const RegularPage = () => {
 
 	return (
 		<div className='PageDad' >
-			<div className={pageInfo.className} >
+			<div className='regularPage' >
 				<Head text={pageInfo.header} />
             	<Routes>
             		<Route path='/mybaby' element={<MyBaby setPageInfo={setPageInfo} />} />

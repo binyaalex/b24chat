@@ -9,19 +9,19 @@ const FitnessSquareContainer = ({setPageInfo}) => {
 
 	const containerArr = [
 		{
-			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
+			img: '/images/fitness/breath.jpg',
 			text: 'breath'
 		},
 		{
-			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
+			img: '/images/fitness/yoga.jpg',
 			text: 'yoga'
 		},
 		{
-			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
+			img: '/images/fitness/stretching.jpg',
 			text: 'stretching'
 		},
 		{
-			img: 'url(https://www.onebody.co.il/wp-content/uploads/2020/07/yoga_1.jpg)',
+			img: '/images/fitness/workout.jpg',
 			text: 'workout'
 		},
 	]

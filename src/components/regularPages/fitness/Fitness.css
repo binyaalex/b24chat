@@ -7,27 +7,24 @@
 }
 
 .fitnessSquareContainer {
-  height: 80vh;
-  margin-bottom: 10px
+  height: 724px;
 }
 
 .fitnessSquare {
-  width: 90vw;
-  max-width: 250px;
-  height: 15.5vh;
-  border-radius: 10px;
-  background-size: cover;
-  position: relative;
-  margin-bottom: 20px;
-  background-position: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 170px;
+}
+
+.fitnessSquareImg {
+  width: 387px;
 }
 
 .fitnessSquareHeader {
-  position: absolute;
-  left: 15px;
-  top: 15px;
-  text-transform: uppercase;
-  font-size: 19px;
-  color: #BF2C7D;
+    position: relative;
+    left: 24px;
+    top: -131px;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0.652173913;
+    font-weight: 600;
+    color: #BF2C7D;
 }
