@@ -1,5 +1,5 @@
 import './App.css';
-import RegularPage from './components/RegularPage'
+import RegularPage from './components/regularPages/RegularPage'
 import {
   BrowserRouter,
   Routes,
