@@ -12,7 +12,7 @@ const MyBaby = ({setPageInfo}) => {
 			<section className='mybabySection' >
 				<MyBabyDate day='28' month='feb' />
 				<main className='mybabySectionMain mybabySectionMain1' >
-					<img className='mybabySection1Img' src='/babyPaint.png' />
+					<img className='mybabySection1Img' src='/images/myBaby/babyPaint.png' />
 					<div className='mybabySection1Text' >
 						<h1 className='mybabySection1TextHeader' >Right now</h1>
 						<p className='mybabySection1TextP' >5 weeks pregnant</p>
@@ -23,17 +23,17 @@ const MyBaby = ({setPageInfo}) => {
 			<section className='mybabySection' >
 				<MyBabyDate day='12' month='mar' />
 				<main className='mybabySectionMain mybabySectionMain2' >
-					<img className='mybabySection2MainImg' src="/hands4.jpg" />
+					<img className='mybabySection2MainImg' src="/images/myBaby/hands4.jpg" />
 					<div className='mybabySection2SubImages' >
-						<img className='mybabySection2SubImages1' src='/ultraBaby.jpg' />
-						<img className='mybabySection2SubImages2' src='/ultrasound.jpg' />
+						<img className='mybabySection2SubImages1' src='/images/myBaby/ultraBaby.jpg' />
+						<img className='mybabySection2SubImages2' src='/images/myBaby/ultrasound.jpg' />
 					</div>
 				</main>
 			</section>
 			<section className='mybabySection mybabySection3' >
 				<MyBabyDate day='27' month='mar' />
 				<main className='mybabySectionMain' >
-					<img className='mybabySection3Img' src='/yoga.jpg' />
+					<img className='mybabySection3Img' src='/images/myBaby/yoga.jpg' />
 					<div className='mybabySection3Text' >
 						<h1 className='mybabySection3TextHeader' >Yoga for pregnant</h1>
 						<p className='mybabySection3TextP' >lotus yoga center be'er sheva</p>
@@ -49,7 +49,7 @@ const MyBaby = ({setPageInfo}) => {
 			<section className='mybabySection mybabySection4' >
 				<div className='lastDate' >
 					<MyBabyDate num='4' day='04' month='apr' />
-					<img src="/cross.png" width='30px' />
+					<img src="/images/myBaby/cross.png" width='30px' />
 				</div>
 				<main className='mybabySectionMain mybabySectionMain4' >
 					<h1 className='mybabySection4Header' >You have booked an online consultation with a doctor</h1>
