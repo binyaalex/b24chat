@@ -50,7 +50,7 @@
 
 .regularPage {
   max-width: 428px;
-  max-height: 926px;
+  min-height: 95vh;
   padding: 38px 21px;
   /*border: 1px solid gray;*/
 }

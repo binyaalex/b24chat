@@ -12,7 +12,7 @@ const NotificationsSquare = ({img, massageBeforeBold, bold, massageAfterBold, da
 					 {massageAfterBold}
 				</h1>
 				<date className='NotificationsTextDate' >{date}</date>
-				<button className='NotificationsBtn' >{btn}</button>
+				<img className='NotificationsBtn' src={btn} />
 			</div>
 		</section>
 	)
