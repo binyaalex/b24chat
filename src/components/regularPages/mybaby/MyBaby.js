@@ -54,7 +54,7 @@ const MyBaby = ({setPageInfo}) => {
 				</div>
 				<main className='mybabySectionMain mybabySectionMain4' >
 					<h1 className='mybabySection4Header' >You have booked an online consultation with a doctor</h1>
-					<button className='mybabySection4Btn' >></button>
+					<img className='mybabySection4Btn' src="/images/myBaby/arrow.png" />
 				</main>
 			</section>
 		</div>

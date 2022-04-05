@@ -23,13 +23,13 @@
 .MyBabyDateDay {
   font-size: 25px;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 1.1;
 }
 
 .MyBabyDateMonth {
     text-transform: capitalize;
     font-size: 18px;
-    line-height: 0.9;
+    line-height: 1.1;
     margin-bottom: 17px;
 }
 
@@ -168,11 +168,9 @@
 }
 
 .mybabySection4Btn {
-    height: 80px;
-    background-color: transparent;
-    border: 0;
-    font-size: 25px;
-    color: white;
+    height: 14px;
+    position: relative;
+    bottom: 22px;
 }
 
 .mybabySectionMain4, .mybabySectionMain2 {
