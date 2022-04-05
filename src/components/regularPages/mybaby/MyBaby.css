@@ -9,7 +9,7 @@
 }
 
 .mybabySectionMain1 {
-  padding: 5px 0;
+  margin-bottom: 32px;
 }
 
 .MyBabyDate {
@@ -56,13 +56,13 @@
 .mybabySection1TextHeader {
     font-weight: 500;
     font-size: 25px;
-    line-height: 35px;
+    line-height: 1.4;
 }
 
 .mybabySection1TextP {
     font-size: 18px;
     color: #D591B7;
-    line-height: 25px;
+    line-height: 1.38;
 }
 
 .mybabySection1TextBtn {
@@ -73,7 +73,7 @@
   border-radius: 15px;
   color: white;
   font-size: 10px;
-  margin: 10px 0;
+  margin-top: 6px;
 }
 
 .mybabySection2MainImg {
@@ -101,42 +101,50 @@
 
 .mybabySection3Img {
   height: 100px;
-  border-radius: 10px;
-  margin-right: 15px;
+  margin-right: 17px;
+}
+
+.mybabySection3Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100px;
+    padding-top: 3px;
 }
 
 .mybabySection3TextHeader {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.1;
-  padding: 3px 0 5px 0;
+  font-size: 22px;
+  line-height: 0.91;
+  padding: 3px 0 8px 0;
 }
 
 .mybabySection3TextP {
   text-transform: capitalize;
-  font-size: 14px;
+  font-size: 15px;
   opacity: 50%;
-  line-height: 1.06666;
+  line-height: 1.06666; 
+  font-family: system-ui;
 }
 
 .mybabySection3TextTime {
   font-size: 10px;
   opacity: 50%;
-  line-height: 0.625;
+  line-height: 1.6;
+  padding-bottom: 8px;
 }
 
 .mybabySection3TextGrades {
   display: flex;
   font-size: 12px;
-  position: relative;
-  bottom: -15px;
 }
 
 .mybabySection3TextGrades > p {
   margin-left: 10px;
   opacity: 50%;
   font-size: 13px;
-  line-height: 0.8125;
+  line-height: 1.23;
+  font-family: system-ui;
 }
 
 .star {
@@ -174,12 +182,13 @@
 
 .mybabySection4Header {
   width: 210px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 .mybabySectionMain4 {
-  padding: 10px;
+  padding: 90px 21px 4px 17.5px;
   color: white;
 }
 
