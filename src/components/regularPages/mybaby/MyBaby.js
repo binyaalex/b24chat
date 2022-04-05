@@ -1,4 +1,5 @@
- import React, { useEffect } from 'react';
+import './MyBaby.css';
+import React, { useEffect } from 'react';
 import MyBabyDate from './MyBabyDate'
 
 const MyBaby = ({setPageInfo}) => {

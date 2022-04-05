@@ -1,3 +1,5 @@
+import './Head.css';
+
 const Head = ({text}) => {
 	return (
 		<div className='head' >

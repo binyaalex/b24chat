@@ -1,3 +1,4 @@
+import './Fitness.css';
 import React, { useEffect } from 'react';
 import FitnessSquare from './FitnessSquare'
 

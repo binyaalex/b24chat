@@ -1,3 +1,4 @@
+import './Notifications.css';
 import React, { useEffect } from 'react';
 import NotificationsSquare from './NotificationsSquare'
 

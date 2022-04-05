@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 21px;
+  /* margin-bottom: 10px; */
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
+  max-width: 426px;
+  z-index: 1;
+  background-color: white;
+}
+
+.footer > * {
+  font-size: 16px;
+  color: #77838F;
+}
+
+.sos {
+  width: 47px;
+}
+
+.grayIcon {
+  width: 20px;
+}
+
+.comments {
+  font-size: 25px;
+  border: 5px solid #BF2C7D;
+  border-radius: 50%;
+  padding: 9px;
+  background-color: #BF2C7D;
+  color: white;
+  position: relative;
+  bottom: 10px;
+  margin: 0;
+}
