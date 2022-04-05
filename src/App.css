@@ -51,7 +51,7 @@
 .regularPage {
   max-width: 428px;
   min-height: 95vh;
-  padding: 38px 21px;
+  padding: 38px 21px 80px;
   /*border: 1px solid gray;*/
 }
 
