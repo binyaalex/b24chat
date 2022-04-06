@@ -22,3 +22,26 @@
   letter-spacing: 0.0625em;
   line-height: 1.5625;
 }
+
+.menu {
+    width: 355px;
+    height: 926px;
+    background-color: #BF2C7D;
+    opacity: 90%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 47%;
+    transform: translateX(-50%);
+}
+
+.mainList {
+  padding: 110px 15px 10px 31px;
+}
+
+.menuItemHeader {
+  font-size: 18px;
+  line-height: 1.39;
+  color: white;
+  font-weight: 400;
+}
