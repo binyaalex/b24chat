@@ -15,7 +15,8 @@
 }
 
 .fitnessSquareImg {
-  width: 387px;
+  width: 386px;
+  border-radius: 10px;
 }
 
 .fitnessSquareHeader {

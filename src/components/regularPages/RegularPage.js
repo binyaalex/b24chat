@@ -17,13 +17,15 @@ const RegularPage = () => {
 		<div className='PageDad' >
 			<div className='regularPage' >
 				<Head text={pageInfo.header} />
-            	<Routes>
-            		<Route path='/mybaby' element={<MyBaby setPageInfo={setPageInfo} />} />
-            		<Route path='/fitness' element={<FitnessSquareContainer setPageInfo={setPageInfo} />} />
-            		<Route path='/notifications' element={<Notifications setPageInfo={setPageInfo} />} />
-            	</Routes>
+				<div className='variablePage' >
+	            	<Routes>
+	            		<Route path='/mybaby' element={<MyBaby setPageInfo={setPageInfo} />} />
+	            		<Route path='/fitness' element={<FitnessSquareContainer setPageInfo={setPageInfo} />} />
+	            		<Route path='/notifications' element={<Notifications setPageInfo={setPageInfo} />} />
+	            	</Routes>
+				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</div>
 	)
 }

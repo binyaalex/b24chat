@@ -45,14 +45,18 @@
 
 .PageDad {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .regularPage {
-  max-width: 428px;
-  min-height: 95vh;
   padding: 38px 21px 80px;
+  max-width: 428px;
   /*border: 1px solid gray;*/
+}
+
+.variablePage {
+  min-height: 95vh;
 }
 
 

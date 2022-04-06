@@ -2,8 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 7px 24px;
-  width: 100%;
+  width: 386px;
+  max-width: 428px;
+  height: 38px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 14px 7px 14px 11px;
 }
 
 .head > * {
@@ -14,5 +20,5 @@
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.0625em;
-  line-height: 28px;
+  line-height: 1.5625;
 }
