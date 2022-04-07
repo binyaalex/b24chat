@@ -24,6 +24,7 @@
 }
 
 .menu {
+    display: none;
     width: 355px;
     height: 926px;
     background-color: #BF2C7D;

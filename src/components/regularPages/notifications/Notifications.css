@@ -2,6 +2,7 @@
 .notifications {
   background-image: linear-gradient(to right, #FAFAFA , #F7F7F7, #FAFAFA);
   padding-bottom: 2px;
+  margin-top: 25px;
 }
 
 .NotificationsSquare {
