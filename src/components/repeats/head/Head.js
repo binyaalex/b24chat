@@ -3,7 +3,20 @@ import MenuItem from './MenuItem'
 
 const Head = ({text}) => {
 
-	const menuItemsArr = ['My Baby', 'Fitness', 'Notifications']
+	const menuItemsArr = [
+		{
+			link: 'http://localhost:3000/regularpage/mybaby',
+			text: 'My Baby',
+		},
+		{
+			link: 'http://localhost:3000/regularpage/fitness',
+			text: 'Fitness',
+		},
+		{
+			link: 'http://localhost:3000/regularpage/notifications',
+			text: 'Notifications',
+		},
+	]
 
 	return (
 		<>
@@ -17,7 +30,7 @@ const Head = ({text}) => {
 					{
 						menuItemsArr.map((el, i) => {
 							return (
-								<MenuItem text={el} key={i} /> 
+								<MenuItem text={el.text} link={el.link} key={i} /> 
 							)
 						})
 					}

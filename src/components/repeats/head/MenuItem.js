@@ -1,6 +1,6 @@
-const MenuItem = ({text}) => {
+const MenuItem = ({text, link}) => {
 	return (
-		<a className='menuItem' href='http://localhost:3000/regularpage/mybaby' >
+		<a className='menuItem' href={link} >
 			<img className='menuItemIcon' />
 			<h1 className='menuItemHeader' >{text}</h1>
 		</a>
