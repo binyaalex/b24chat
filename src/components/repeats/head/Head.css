@@ -28,15 +28,26 @@
     height: 926px;
     background-color: #BF2C7D;
     opacity: 90%;
-    position: absolute;
+    position: fixed;
     z-index: 2;
     top: 0;
     left: 47%;
     transform: translateX(-50%);
 }
 
+.menuEsc {
+    height: 38px;
+    position: relative;
+    top: 34.5px;
+    left: 292px;
+}
+
 .mainList {
-  padding: 110px 15px 10px 31px;
+  padding: 40px 15px 10px 31px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .menuItemHeader {

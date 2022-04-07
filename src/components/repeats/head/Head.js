@@ -18,14 +18,24 @@ const Head = ({text}) => {
 		},
 	]
 
+	const displayMenu = () => {
+		const menu = document.querySelector('.menu')
+		if (menu.style.display === 'none') {
+			menu.style.display = 'block';
+		} else {
+			menu.style.display = 'none';
+		}
+	}
+
 	return (
 		<>
 			<div className='head' >
-				<img className='menuIcon' src="/images/head/menu.png" width='19px' />
+				<img onClick={displayMenu} className='menuIcon' src="/images/head/menu.png" width='19px' />
 				<h1 className='headHeader' >{text}</h1>
 				<img className='bell' src="/images/head/bell.png" width='19px' />
 			</div>
 			<div className='menu' >
+				<img onClick={displayMenu} className='menuEsc' src='/images/head/esc.png' />
 				<div className='mainList' >
 					{
 						menuItemsArr.map((el, i) => {
