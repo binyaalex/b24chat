@@ -20,6 +20,10 @@ const Head = ({text}) => {
 			link: 'http://localhost:3000/regularpage/notifications',
 			text: 'Notifications',
 		},
+		{
+			link: 'http://localhost:3000/regularpage/contact',
+			text: 'Contact',
+		},
 	]
 
 	const displayMenu = () => {

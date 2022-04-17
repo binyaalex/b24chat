@@ -10,15 +10,6 @@ const Contact = ({setPageInfo}) => {
 
 	return (
 		<div className='contactPage'>
-{/*			<div className='contactPhoto' >
-				<div className='contactPhotoImgDiv' >
-					<img className='contactPhotoImg' src='' />
-				</div>
-				<div className='contactPhotoTextDiv' >
-					<h1 className='contactPhotoInfo' ></h1>
-					<button className='contactPhotoEdit' >ערוך</button>
-				</div>
-			</div>*/}
 			<DetailsList />
 		</div>
 	)
