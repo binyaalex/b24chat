@@ -5,6 +5,10 @@ const Head = ({text}) => {
 
 	const menuItemsArr = [
 		{
+			link: 'http://localhost:3000/headpage/start',
+			text: 'Start',
+		},
+		{
 			link: 'http://localhost:3000/regularpage/mybaby',
 			text: 'My Baby',
 		},
