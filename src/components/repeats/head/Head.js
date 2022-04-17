@@ -6,23 +6,23 @@ const Head = ({text}) => {
 	const menuItemsArr = [
 		{
 			link: 'http://localhost:3000/headpage/start',
-			text: 'Start',
+			text: 'התחלה',
 		},
 		{
 			link: 'http://localhost:3000/regularpage/mybaby',
-			text: 'My Baby',
+			text: 'התינוק שלי',
 		},
 		{
 			link: 'http://localhost:3000/regularpage/fitness',
-			text: 'Fitness',
+			text: 'כושר',
 		},
 		{
 			link: 'http://localhost:3000/regularpage/notifications',
-			text: 'Notifications',
+			text: 'התראות',
 		},
 		{
 			link: 'http://localhost:3000/regularpage/contact',
-			text: 'Contact',
+			text: 'איש קשר',
 		},
 	]
 

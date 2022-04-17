@@ -1,5 +1,6 @@
 .head {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   width: 386px;
@@ -32,19 +33,20 @@
     position: fixed;
     z-index: 2;
     top: 0;
-    left: 47%;
+    left: 53%;
     transform: translateX(-50%);
+    text-align: right;
 }
 
 .menuEsc {
     height: 38px;
     position: relative;
     top: 34.5px;
-    left: 292px;
+    right: 292px;
 }
 
 .mainList {
-  padding: 40px 15px 10px 31px;
+  padding: 40px 31px 10px 15px;
 }
 
 a {
