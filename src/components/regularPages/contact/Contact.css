@@ -1,3 +1,7 @@
+.contactPage {
+	padding: 27px 0;
+}
+
 .detailsList {
 	background-image: linear-gradient(to right, #FAFAFA , #F7F7F7, #FAFAFA);	
 }
@@ -11,8 +15,19 @@
 	margin-bottom: 12px;
 }
 
-.detailSquare:nth-child(2) {
+.detailSquare:nth-child(1) {
+	padding: 0;
 	align-items: center;
+}
+
+.detailSquare:nth-child(1) .detailInfo {
+	color: #BF2C7D;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.detailSquare:nth-child(1) button {
+	color: #D591B7;
 }
 
 .detailSquare:nth-child(2) .detailImgDiv {
