@@ -1,0 +1,62 @@
+.mbsc-ios.mbsc-page {
+    display: none;
+}
+
+.md-mobile-picker-header {
+    font-size: 14px;
+}
+
+input.md-mobile-picker-input {
+    color: initial;
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: arial, verdana, sans-serif;
+    font-size: 22px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+.md-mobile-picker-button.mbsc-button {
+    font-size: 13px;
+    padding: 0 15px;
+    line-height: 36px;
+    float: right;
+    margin: 6px 0;
+    width: 100%;
+}
+
+.mbsc-col-no-padding {
+    padding-left: 0;
+}
+
+.md-mobile-picker-box-label.mbsc-textfield-wrapper-box,
+.md-mobile-picker-box-label .mbsc-textfield-wrapper-box,
+.md-mobile-picker-inline {
+    margin: 6px 0 12px 0;
+}
+
+.mbsc-ios.mbsc-scroller-wheel-item.mbsc-selected {
+    color: #BF2C7D !important;
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+
+.mbsc-ios.mbsc-page {
+    background-color: transparent !important;
+}
+
+..mbsc-ios.mbsc-datepicker-inline {
+    border: 0 !important;
+}
+
+.mbsc-ios.mbsc-scroller-wheel-item {
+    font-size: 22px !important;
+    font-family: 'Poppins' !important;
+}
+
+.mbsc-ios.mbsc-datetime-month-wheel .mbsc-scroller-wheel-item {
+    text-align: center !important;
+}
