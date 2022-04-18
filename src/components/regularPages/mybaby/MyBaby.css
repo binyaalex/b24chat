@@ -3,7 +3,7 @@
   text-align: right;
 }
 
-.mybabySection {
+.mybabySection, .userSection {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -204,39 +204,40 @@
   color: white;
 }
 
-.MyBabyDate4 {
-  height: 90%;
-}
-
 .chat {
   width: 79px;
 }
 
 .plus {
-    position: fixed;
-    bottom: 110px;
-    left: 153px;
-    background-color: white;
-    border-radius: 50%;
-    border: 1px solid #BF2C7D;
-    padding: 5px;
-    width: 40px;
+    position: relative;
+    bottom: 35px;
+    left: -1.5px;
+    /*background-color: white;*/
+    /*border-radius: 50%;*/
+    /*border: 1px solid #BF2C7D;*/
+    /*padding: 5px;*/
+    /*width: 40px;*/
 }
 
 .add {
     display: none;
     position: fixed;
     top: 25%;
-    left: 30%;
-    border: 1px solid;
+    left: 212px;
     border-radius: 15px;
     height: 200px;
     width: 300px;
     background-color: white;
+    box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
 }
 
 .addEsc {
-  position: relative;
+    position: relative;
+    right: 7px;
+    top: 7px;
+    border: 2px solid;
+    border-radius: 50%;
+    font-weight: 600;
 }
 
 .inputsDiv {
@@ -268,4 +269,25 @@
 
 .addDescription {
   width: 75%;
+}
+
+.UserSectionImg {
+  position: relative;
+  width: 386px;
+  border-radius: 10px;
+}
+
+.userSectionH {
+  position: relative;
+  top: -250px;
+  right: 21px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.userSectionP {
+  position: relative;
+  top: -250px;
+  right: 21px;
 }
