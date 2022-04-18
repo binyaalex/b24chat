@@ -9,6 +9,16 @@ const MyBaby = ({setPageInfo}) => {
 		setPageInfo({header: 'התינוק שלי', className: 'mybabyPage'})
 	},[]);
 
+	const displayAdd = () => {
+		console.log(1)
+		const add = document.querySelector('.add')
+		if (add.style.display === 'block') {
+			add.style.display = 'none'
+		} else {
+			add.style.display = 'block'
+		}
+	}
+
 	return (
 		<div className='myBaby' >
 			<section className='mybabySection' >
@@ -57,8 +67,8 @@ const MyBaby = ({setPageInfo}) => {
 					<img className='mybabySection4Btn' src="/images/myBaby/arrow.png" />
 				</main>
 			</section>
-			<img className='plus' src="/images/myBaby/cross.png" width='30px' />
-			<Add />
+			<img onClick={displayAdd} className='plus' src="/images/myBaby/cross.png" width='30px' />
+			<Add displayAdd={displayAdd} />
 		</div>
 	)
 }

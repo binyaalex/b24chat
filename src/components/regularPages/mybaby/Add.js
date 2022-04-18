@@ -1,7 +1,7 @@
-const Add = () => {
+const Add = ({displayAdd}) => {
 	return (
 		<div className='add'>
-			<button className='addEsc'>X</button>
+			<button onClick={displayAdd} className='addEsc'>X</button>
 			<div className='inputsDiv' >
 				<div className='textInputsDiv' >
 					<input className='addHeader' type='text' placeholder='כותרת' />
