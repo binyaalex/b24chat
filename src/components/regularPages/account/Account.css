@@ -1,0 +1,149 @@
+.accountPage {
+	padding: 27px 0;
+	width: 100%;
+}
+
+.accountMain {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: right;
+	padding-bottom: 47px;
+}
+
+.accountMainImgDiv {	
+	padding-left: 17px; 
+}
+
+.accountMainImg {
+	width: 100px;
+}
+
+.accountMainTextH {
+	color: #BF2C7D;
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 35px;
+}
+
+.accountMainTextP {
+	color: #D591B7;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.accountMainTextImg {
+	width: 270px;
+	padding-bottom: 8px;
+}
+
+.accountMainTextDays {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.accountMainTextDays > * {
+	width: 105px;
+	height: 21px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 10px;
+	line-height: 20px;
+}
+
+.daysBeen {
+	background-color: #D591B7;
+	color: white;	
+}
+
+.daysLeft {
+	border: 1px solid #E2E2E2;
+	color: #707070;
+}
+
+.infoList {
+	background-image: linear-gradient(to right, #FAFAFA , #F7F7F7, #FAFAFA);	
+}
+
+.infoSquare {
+	background-color: white;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-end;
+	padding: 23px 27px 24px;
+	margin-bottom: 12px;
+}
+
+/*.infoSquare:nth-child(1) {
+	padding: 0;
+	align-items: center;
+}
+
+.infoSquare:nth-child(1) .infoSquareInfo {
+	color: #BF2C7D;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.infoSquare:nth-child(1) button {
+	color: #D591B7;
+}
+
+.infoSquare:nth-child(2) .infoSquareImgDiv {
+	padding-top: 8px;
+	padding-left: 43px;
+}
+*/
+.infoSquareImgDiv {
+	padding-left: 33px;
+	display: flex;
+	align-items: center;
+	height: 56px;
+}
+
+.infoSquareImg {
+	width: 46px;
+	height: 46px;
+}
+
+/*.infoSquare:nth-child(1) img {
+	width: 100px;
+}
+*/
+
+.infoSquare:nth-child(3) img {
+	width: 56px;
+	height: 56px;
+}
+
+.infoSquare:nth-child(1) .infoSquareImgDiv {
+	align-items: flex-end;
+}
+
+.infoSquare:nth-child(2) .infoSquareImgDiv {
+	align-items: flex-end;
+}
+
+
+
+.infoSquareTextDiv {
+	display: flex;
+	flex-direction: column;
+}
+
+.infoSquareH {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 29px;
+	text-align: right;
+}
+
+.infoSquareP {
+	background-color: transparent;
+	border: 0;
+	color: #8F9BB3;
+	text-align: right;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 27px;
+}

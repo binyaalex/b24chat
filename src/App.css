@@ -57,6 +57,7 @@ button {
 .regularPage {
   padding: 38px 21px 80px;
   max-width: 428px;
+  width: 428px;
   /*border: 1px solid gray;*/
 }
 
