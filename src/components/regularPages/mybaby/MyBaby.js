@@ -1,6 +1,7 @@
 import './MyBaby.css';
 import React, { useEffect } from 'react';
 import MyBabyDate from './MyBabyDate'
+import Add from './Add'
 
 const MyBaby = ({setPageInfo}) => {
 
@@ -50,13 +51,14 @@ const MyBaby = ({setPageInfo}) => {
 			<section className='mybabySection mybabySection4' >
 				<div className='lastDate' >
 					<MyBabyDate num='4' day='04' month='אפר' />
-					<img className='plus' src="/images/myBaby/cross.png" width='30px' />
 				</div>
 				<main className='mybabySectionMain mybabySectionMain4' >
 					<h1 className='mybabySection4Header' >יש לך פגישת ייעוץ אונליין עם הרופא שלך</h1>
 					<img className='mybabySection4Btn' src="/images/myBaby/arrow.png" />
 				</main>
 			</section>
+			<img className='plus' src="/images/myBaby/cross.png" width='30px' />
+			<Add />
 		</div>
 	)
 }

@@ -181,10 +181,6 @@
   align-items: flex-end;
 }
 
-.plus {
-  margin-right: 3.5px;
-}
-
 .mybabySection4Btn {
     height: 14px;
     position: relative;
@@ -209,9 +205,61 @@
 }
 
 .MyBabyDate4 {
-  height: 125px;
+  height: 90%;
 }
 
 .chat {
   width: 79px;
+}
+
+.plus {
+  position: relative;
+  bottom: 25px;
+  right: 3.5px;  
+}
+
+.add {
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    border: 1px solid;
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+}
+
+.addEsc {
+  position: relative;
+}
+
+.inputsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+}
+
+.textInputsDiv {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputsDiv input {
+  border: 0;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+.addHeader {
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+.addDescription {
+  width: 75%;
 }
