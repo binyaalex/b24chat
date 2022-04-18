@@ -31,7 +31,7 @@ const Start = ({setPageInfo}) => {
 					<div className='year' ></div>
 				</div>
 			</div>
-			<button className='startSubmit' >שלחי</button>
+			<button className='startSubmit' >לאישור</button>
 			<Dates />
 		</div>
 	)
