@@ -21,6 +21,10 @@ const Head = ({text}) => {
 			text: 'התראות',
 		},
 		{
+			link: 'http://localhost:3000/regularpage/account',
+			text: 'החשבון שלי',
+		},
+		{
 			link: 'http://localhost:3000/regularpage/contact',
 			text: 'איש קשר',
 		},
