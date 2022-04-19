@@ -209,14 +209,24 @@
 }
 
 .plus {
-    position: relative;
-    bottom: 35px;
-    left: -1.5px;
+    position: fixed;
+    bottom: 21%;
+    right: 24%;
+    transform: translate(-50%, -50%);
     /*background-color: white;*/
     /*border-radius: 50%;*/
     /*border: 1px solid #BF2C7D;*/
     /*padding: 5px;*/
     /*width: 40px;*/
+}
+
+.share {
+    position: fixed;
+    bottom: 15%;
+    right: 24%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #BF2C7D;
 }
 
 .addContent, .addDate {
