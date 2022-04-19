@@ -11,6 +11,7 @@ const Add = ({displayAdd}) => {
 					<i class="fas fa-solid fa-camera"></i>
 					<button className='imgInput' >upload</button>
 				</div>
+				<button className='addOkBtn' >אישור</button>
 			</div>
 		</div>
 	)
