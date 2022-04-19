@@ -1,15 +1,21 @@
 export const initState = {
 	userSectionsArr: [
-		// {
-		// 	header: 'שיעור יאשון',
-		// 	description: 'בלוטוס באר שבע',
-		// 	img: 'https://yogabykarina.com/wp-content/uploads/2019/12/Pregnancy-yoga-poses-strengthen-core.jpg'
-		// },
-		// {
-		// 	header: 'שיעור יוגה ראשון',
-		// 	description: 'בלוטוס באר שבע',
-		// 	img: 'https://yogabykarina.com/wp-content/uploads/2019/12/Pregnancy-yoga-poses-strengthen-core.jpg'
-		// },
+		{
+			day: '12',
+			month: 'אפר',
+			year: '2022',
+			header: 'שיעור יאשון',
+			description: 'בלוטוס באר שבע',
+			img: 'https://yogabykarina.com/wp-content/uploads/2019/12/Pregnancy-yoga-poses-strengthen-core.jpg'
+		},
+		{
+			day: '12',
+			month: 'אפר',
+			year: '2023',
+			header: 'שיעור יוגה ראשון',
+			description: 'בלוטוס באר שבע',
+			img: 'https://yogabykarina.com/wp-content/uploads/2019/12/Pregnancy-yoga-poses-strengthen-core.jpg'
+		},
 	]
 }
 

@@ -1,5 +1,5 @@
 .mbsc-ios.mbsc-page {
-    display: none;
+    /*display: none;*/
 }
 
 .md-mobile-picker-header {
@@ -59,4 +59,8 @@ input.md-mobile-picker-input {
 
 .mbsc-ios.mbsc-datetime-month-wheel .mbsc-scroller-wheel-item {
     text-align: center !important;
+}
+
+.mbsc-ios.mbsc-datepicker-inline {
+    border: 0 !important;
 }

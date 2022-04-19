@@ -1,21 +1,29 @@
 import {connect} from 'react-redux';
 import {addAction} from '../../../redux/actions';
+import Dates from '../../headPages/Dates.js';
 
 const Add = ({displayAdd, add}) => {
 
 	return (
 		<div className='add'>
-			<button onClick={displayAdd} className='addEsc'>X</button>
-			<div className='inputsDiv' >
-				<div className='textInputsDiv' >
-					<input className='addHeader' type='text' placeholder='כותרת' />
-					<input className='addDescription' type='text' placeholder='תיאור' />
+			<div className='addDate'>
+				<h1 className='addDateH' >בחרי תאריך</h1>
+				<Dates />
+				<button onClick={add} className='addDateOkBtn OkBtn' >אישור</button>
+			</div>
+			<div className='addContent'>
+				<button onClick={displayAdd} className='addEsc'>X</button>
+				<div className='inputsDiv' >
+					<div className='textInputsDiv' >
+						<input className='addHeader' type='text' placeholder='כותרת' />
+						<input className='addDescription' type='text' placeholder='תיאור' />
+					</div>
+					<div className='imgInputDiv' >
+						<button className='imgInput' >תמונה</button>
+						<i class="camera fas fa-solid fa-camera"></i>
+					</div>
+					<button onClick={add} className='addContentOkBtn OkBtn' >אישור</button>
 				</div>
-				<div className='imgInputDiv' >
-					<i class="fas fa-solid fa-camera"></i>
-					<button className='imgInput' >upload</button>
-				</div>
-				<button onClick={add} className='addOkBtn' >אישור</button>
 			</div>
 		</div>
 	)
