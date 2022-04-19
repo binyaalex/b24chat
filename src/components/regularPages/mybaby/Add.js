@@ -1,15 +1,15 @@
 import {connect} from 'react-redux';
-import {addAction} from '../../../redux/actions';
+import {addDateAction, addAction} from '../../../redux/actions';
 import Dates from '../../headPages/Dates.js';
 
-const Add = ({displayAdd, add}) => {
+const Add = ({displayAdd, addDate, add}) => {
 
 	return (
 		<div className='add'>
 			<div className='addDate'>
 				<h1 className='addDateH' >בחרי תאריך</h1>
 				<Dates />
-				<button onClick={add} className='addDateOkBtn OkBtn' >אישור</button>
+				<button onClick={addDate} className='addDateOkBtn OkBtn' >אישור</button>
 			</div>
 			<div className='addContent'>
 				<button onClick={displayAdd} className='addEsc'>X</button>
@@ -32,7 +32,7 @@ const Add = ({displayAdd, add}) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     add: () => dispatch(addAction()),
-    // endTheGame: () => dispatch(endTheGameAction())
+    addDate: () => dispatch(addDateAction()),
   }
 }
 

@@ -4,3 +4,10 @@ export const addAction = () => {
 		type:'ADD',
 	}
 }
+
+export const addDateAction = () => {
+	console.log('addDateAction')
+	return {
+		type:'ADDDATE',
+	}
+}

@@ -13,12 +13,12 @@ const MyBaby = ({setPageInfo}) => {
 	const displayAdd = () => {
 		console.log(1)
 		const screen = document.querySelector('.hospitalAndUserSections')
-		const add = document.querySelector('.add')
-		if (add.style.display === 'block') {
-			add.style.display = 'none'
+		const addDate = document.querySelector('.addDate')
+		if (addDate.style.display === 'flex') {
+			addDate.style.display = 'none'
 			screen.style.opacity = '100%'
 		} else {
-			add.style.display = 'block'
+			addDate.style.display = 'flex'
 			screen.style.opacity = '50%'
 		}
 	}
