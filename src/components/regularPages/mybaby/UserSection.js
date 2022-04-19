@@ -1,9 +1,9 @@
 import MyBabyDate from './MyBabyDate'
 
-const UserSection = ({img, header, description}) => {
+const UserSection = ({day, month, img, header, description}) => {
 	return (
 		<section className='userSection' >
-			<MyBabyDate num='4' day='10' month='אפר' />
+			<MyBabyDate num='4' day={day} month={month} />
 			<main className='userSectionMain' >
 				<img className='UserSectionImg' src={img} />
 				<h1 className='userSectionH' >{header}</h1>

@@ -1,7 +1,7 @@
 export const initState = {
 	userSectionsArr: [
 		{
-			day: '12',
+			day: '10',
 			month: 'אפר',
 			year: '2022',
 			header: 'שיעור יאשון',

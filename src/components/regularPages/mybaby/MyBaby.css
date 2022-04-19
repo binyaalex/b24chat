@@ -231,7 +231,7 @@
     top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*display: none;*/
+    display: none;
     border-radius: 15px;
     height: 300px;
     width: 400px;
