@@ -1,6 +1,8 @@
+import {connect} from 'react-redux';
 import UserSection from './UserSection'
 
-const UserSectionList = () => {
+const UserSectionList = ({userSectionsArr}) => {
+	console.log(userSectionsArr)
 
 	const userSectionListArr = [
 		{
@@ -18,7 +20,7 @@ const UserSectionList = () => {
 	return (
 		<div className='userSectionList'>
 			{
-				userSectionListArr.map((el, i) => {
+				userSectionsArr.map((el, i) => {
 					return (
 						<UserSection 
 							img={el.img}
@@ -28,9 +30,14 @@ const UserSectionList = () => {
 					)
 				})
 			}
-			<UserSection />
 		</div>
 	)
 }
 
-export default UserSectionList
+const mapStateToProps = (state) => {
+  return {
+    userSectionsArr: state.userSectionsArr,
+  }
+}
+
+export default connect(mapStateToProps)(UserSectionList) 

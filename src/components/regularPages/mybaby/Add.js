@@ -1,4 +1,8 @@
-const Add = ({displayAdd}) => {
+import {connect} from 'react-redux';
+import {addAction} from '../../../redux/actions';
+
+const Add = ({displayAdd, add}) => {
+
 	return (
 		<div className='add'>
 			<button onClick={displayAdd} className='addEsc'>X</button>
@@ -11,10 +15,17 @@ const Add = ({displayAdd}) => {
 					<i class="fas fa-solid fa-camera"></i>
 					<button className='imgInput' >upload</button>
 				</div>
-				<button className='addOkBtn' >אישור</button>
+				<button onClick={add} className='addOkBtn' >אישור</button>
 			</div>
 		</div>
 	)
 }
 
-export default Add
+const mapDispatchToProps = (dispatch) => {
+  return {
+    add: () => dispatch(addAction()),
+    // endTheGame: () => dispatch(endTheGameAction())
+  }
+}
+
+export default connect(null, mapDispatchToProps)(Add) 
