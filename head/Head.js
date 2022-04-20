@@ -28,18 +28,6 @@ const Head = ({text}) => {
 			link: 'http://localhost:3000/regularpage/contact',
 			text: 'איש קשר',
 		},
-		{
-			link: 'http://localhost:3000/hospital',
-			text: 'больница',
-		},
-		{
-			link: 'http://localhost:3000/appointment',
-			text: 'Встреча',
-		},
-		{
-			link: 'http://localhost:3000/doctor',
-			text: 'Врач',
-		},
 	]
 
 	const displayMenu = () => {
@@ -60,8 +48,7 @@ const Head = ({text}) => {
 			</div>
 			<div className='menu' >
 				<img onClick={displayMenu} className='menuEsc' src='/images/head/esc.png' />
-				<MenuItem />
-				{/* <div className='mainList' >
+				<div className='mainList' >
 					{
 						menuItemsArr.map((el, i) => {
 							return (
@@ -69,7 +56,7 @@ const Head = ({text}) => {
 							)
 						})
 					}
-				</div> */}
+				</div>
 			</div>
 		</>
 	)

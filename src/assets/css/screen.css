@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+/*-----------------------------------------------------------------------------
+
+Prototype Version:  2.4
+
+*/
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-Medium.eot');
+    src: url('../fonts/Assistant-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-Medium.woff2') format('woff2'),
+         url('../fonts/Assistant-Medium.woff') format('woff'),
+         url('../fonts/Assistant-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-Light.eot');
+    src: url('../fonts/Assistant-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-Light.woff2') format('woff2'),
+         url('../fonts/Assistant-Light.woff') format('woff'),
+         url('../fonts/Assistant-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-Regular.eot');
+    src: url('../fonts/Assistant-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-Regular.woff2') format('woff2'),
+         url('../fonts/Assistant-Regular.woff') format('woff'),
+         url('../fonts/Assistant-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-ExtraLight.eot');
+    src: url('../fonts/Assistant-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-ExtraLight.woff2') format('woff2'),
+         url('../fonts/Assistant-ExtraLight.woff') format('woff'),
+         url('../fonts/Assistant-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-Bold.eot');
+    src: url('../fonts/Assistant-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-Bold.woff2') format('woff2'),
+         url('../fonts/Assistant-Bold.woff') format('woff'),
+         url('../fonts/Assistant-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-SemiBold.eot');
+    src: url('../fonts/Assistant-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-SemiBold.woff2') format('woff2'),
+         url('../fonts/Assistant-SemiBold.woff') format('woff'),
+         url('../fonts/Assistant-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-ExtraBold.eot');
+    src: url('../fonts/Assistant-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-ExtraBold.woff2') format('woff2'),
+         url('../fonts/Assistant-ExtraBold.woff') format('woff'),
+         url('../fonts/Assistant-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} /* Table of Contents----------------------------------------------------------------------------
+1. Clean Base
+2. Base Typography
+3. Images
+4. Links
+5. Forms
+6. Tables
+7. Framework
+*/
+:root{
+    --primary-color:#ff69b4;
+    --black-color:#000000;
+    --White-color:#ffffff;
+    --gray-color:#6a6a6a;
+}
+
+/* 1. Create a Clean Base
+------------------------------------------------------------------------------*/
+
+html, body, br, hr, div, span, a, object, iframe, ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, p, blockquote, q, address,
+small, big, cite, dfn, ins, del, i, em, b, strong, sup, sub, strike, pre, code, samp, kbd, var, tt, form, fieldset, legend, label,input, textarea, option, .nobox 
+{background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {display: block}
+
+blockquote, q {quotes: none;}
+br {height: 0;}
+ul, ol, dl, li {margin:0; padding:0;}
+html, body{height: 100%; -webkit-appearance:none; border:none; -webkit-text-size-adjust:none;}
+body{color: var(--gray-color); font-size: 18px; font-family: 'Helvetica';letter-spacing: 0.86px;}
+
+/* Class for clearing floats */
+.clear {clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;}
+.cf:after,.cf:before{display: table;content: ''}
+.cf:after{clear: both;}
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body,*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins';font-size: 20px;color: var(--gray-color)}
+/* 2. Define Base Typography
+------------------------------------------------------------------------------*/
+
+/* Create the Default Headers  */
+h1, h2, h3, h4, h5, h6 {margin: 0;font-weight: 700; color: var(--black-color);}
+/* Specific Header Settings */
+h1,.h1 {font-size: 25px;}
+h2,.h2 {font-size:18px; }
+h3,.h3 {font-size:40px; }
+h4,.h4 {font-size:30px;}
+h5,.h5 {font-size: 25px;}
+h6,.h6 {font-size: 18px;}
+
+.hospitalpages{
+    height: 100%;
+    max-width: 428px;
+    width: 428px;
+}
+/* Create the Default Paragraphs */
+.hospitalpages p { margin-bottom: 20px;}
+
+/* Other Typo */
+.hospitalpages strong {font-weight: bold;}
+.hospitalpages hr {border:0 #000 solid; border-top-width: 1px; clear: both; height: 0;}
+.hospitalpages ol {list-style: decimal;}
+.hospitalpages ul {list-style: disc;}
+
+.hospitalpages .unlisted{list-style: none;}
+/* 3. Images
+------------------------------------------------------------------------------*/
+
+/* Remove border around linked images */
+.hospitalpages img {border: 0; border-style: none;max-width: 100%;}
+
+/* 4. Links
+------------------------------------------------------------------------------*/
+
+/* Default Link Types */
+.hospitalpages a {color: var(--pink-color);text-decoration:none;}
+.hospitalpages a:hover {color: var(--secondar-color);}
+.hospitalpages a:active {color: #e8941a;}
+.hospitalpages a:focus {outline: none;}
+.hospitalpages a.current{color: #e8941a;}
+.hospitalpages input,textarea{font-family: 'Assistant';}
+
+/* 5. Forms
+------------------------------------------------------------------------------*/
+
+.hospitalpages input[type='submit']{ -webkit-appearance:none; border:none; -webkit-text-size-adjust:none; }
+.hospitalpages select{-webkit-appearance:none; -moz-appearance:none; -o-appearance:none; appearance:none;}
+.hospitalpages textarea{overflow:auto;}
+.hospitalpages input:focus::placeholder{font-size: 0;}
+.hospitalpages ::-webkit-input-placeholder{ color: #000;}
+.hospitalpages :-moz-placeholder{ color: #000;}
+.hospitalpages ::-moz-placeholder{ color: #000;}
+.hospitalpages :-ms-input-placeholder{ color: #000;}
+.hospitalpages ::-ms-input-placeholder{ color: #000;}
+.hospitalpages :placeholder-shown{ color: #000;}
+/* Removes fieldset borders. even on Opea 7 */
+.hospitalpages fieldset {border: 1px solid transparent;}
+
+/* 6. Tables
+------------------------------------------------------------------------------*/
+
+/* Table Fixes */
+.hospitalpages table {border-spacing: 0; border-collapse: collapse;}
+.hospitalpages td {text-align: right; font-weight: normal;}
+
+
+/* 7. Framework ------------------------------------------------------------------------------*/ /* Common CSS */
+/*transition effect*/
+.hospitalpages input,textarea,button,select{font-family: 'Helvetica';}
+.hospitalpages button{border: none;outline: none;background: none;}
+
+.hospitalpages a,.panner_box_inner .pannel_box,a::after,a::before ,.quick_area li,#btnmenu span::after,#btnmenu span::before,#btnmenu span{-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
+
+/* Page Layout */
+.hospitalpages .container{max-width: 767px; margin:0 auto; padding:0 15px; width:100%;}
+.hospitalpages .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.hospitalpages .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+.hospitalpages .col-1{max-width:8.33333333%;}
+.hospitalpages .col-2{max-width:16.66666667%;}
+.hospitalpages .col-3{max-width:25%;}
+.hospitalpages .col-4{max-width:33.33333333%;}
+.hospitalpages .col-5{max-width:41.66666667%;}
+.hospitalpages .col-6{max-width:50%;}
+.hospitalpages .col-7{max-width:58.33333333%;}
+.hospitalpages .col-8{max-width:66.66666667%;}
+.hospitalpages .col-9{max-width:75%;}
+.hospitalpages .col-10{max-width:83.33333333%;}
+.hospitalpages .col-11{max-width:91.66666667%;}
+.hospitalpages .col-12{max-width:100%;}
+
+
+.hospitalpages .d-flex{display: flex;}
+.hospitalpages .flex-wrap{flex-wrap: wrap;}
+.hospitalpages .align-center{align-items: center;}
+.hospitalpages .align-start{align-items: flex-start;}
+.hospitalpages .align-end{align-items: flex-end;}
+.hospitalpages .justify-center{justify-content: center;}
+.hospitalpages .justify-start{justify-content: flex-start;}
+.hospitalpages .justify-end{justify-content: flex-end;}
+.hospitalpages .justify-between{justify-content: space-between;}
+
+
+/* Header Area */
+.hospitalpages .header_area{padding: 25px 0;}
+.hospitalpages .header_area .btn{width: 30px;height: 30px;border-radius: 5px;box-shadow: 0 0 10px #00000012;display: flex;align-items: center;justify-content: center;}
+.hospitalpages .header_area .btn img{max-width: 17px;}
+
+/* Banner Section */
+.hospitalpages .banner{width: 100%;height: 250px;background: url('../images/Dentistry_Pharmacy_Building.jpg');background-repeat: no-repeat;background-position: center;background-size: cover;position: relative;display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-end;}
+.hospitalpages .banner img{position: absolute;}
+.hospitalpages .banner::after{width: 100%;height: 100%;content: '';position: absolute;top: 0;left: 0;background: #0000004f;}
+.hospitalpages .banner .menu_btn{position: absolute;top: 0px;right: 5px;z-index: 1;}
+.hospitalpages .banner_content{position: relative;z-index: 1;padding:  0  0 15px 10px;}
+.hospitalpages .banner_content h1{color: var(--White-color);font-weight: 600;font-size: 25px;font:medium;}
+.hospitalpages .banner_content h6{color: var(--White-color);font-size: 15px;font-weight: 400;font:medium;}
+
+/* Doctors secion */
+.hospitalpages .doctors_sec{padding: 20px 0 10px;}
+.hospitalpages .doctor_heading a{font-size: 15px;color: var(--primary-color);font-weight: 400;}
+.hospitalpages .doctor_heading a img{margin-left: 3px;transition: all .5s ease;max-width: 11px;} 
+.hospitalpages .doctor_heading h3{font-size: 17px;font-weight: 400;}
+.hospitalpages .doctor_box .box_img{max-width: 65px; margin:  0 auto; width: 100%;border-radius: 100%; overflow: hidden;height: 65px;}
+.hospitalpages .doctor_box_area{padding: 15px 0 0;text-align: center;}
+.hospitalpages .doctor_box_area .col-3{padding:0 3px;}
+.hospitalpages .doctor_box h6{font-size: 13px;margin: 10px 0 0;font-weight: 400;color:#222B45;padding-bottom: 5px;}
+.hospitalpages .doctor_box p{font-size: 13px;margin: 0;font-weight: 400;color:#8F9BB3;padding-bottom: 5px;}
+.hospitalpages .doctor_box span{font-size: 13px;margin-top: 5px;margin-left: 5px; font-family: SFProDisplay-Regular !important;color:#8F9BB3}
+
+/* Service box */
+.hospitalpages .service_box_area{padding-top: 10px;}
+.hospitalpages .service_box_area .service_box{display: flex;align-items: center;width: 100%;margin-bottom: 12px;}
+.hospitalpages .service_box_area .service_box:last-child  .box_con{border: none;}
+.hospitalpages .service_box .box_img{max-width: 80px;height: 70px;border-radius: 5px;width: 100%;overflow: hidden;}
+.hospitalpages .service_box .box_img img{width: 100%;height: 100%;object-fit: cover;}
+.hospitalpages .service_box .box_con{margin-left: 10px;width: calc(100% - 80px);padding-bottom: 20px;border-bottom: 1px solid #ebebeb;}
+.hospitalpages .box_con h4{font-size: 15px;font-weight: 300;color:#222B45}
+.hospitalpages .box_con p{font-size: 13px;margin: 0;font-weight: 400;color:#8F9BB3}
+.hospitalpages .box_con span{font-size: 16px;color: #BF2C7D;font-weight: 600;}
+
+/* Button */
+.hospitalpages .box_btn { padding: 15px 0; box-shadow: 0px -2px 5px 0px #00000042; background: var(--White-color);text-align: center;position:sticky;width: 100%;bottom: 0; margin-top: 15px;}
+.hospitalpages .box_btn .go_btn{max-width: 65%;width: 100%;margin: 0 auto;color: var(--White-color);background: #BF2C7D;border-radius: 10px;display: inline-block;padding: 8px 0;font-size: 17px;font-weight: 700;height: 40px;}

@@ -1,0 +1,181 @@
+
+
+.searchbox_container{max-width: 767px; margin:0 auto; padding:0 15px; width:100%;}
+.dateselector_container{max-width: 767px; margin:0 auto; padding:5px 15px; width:100%;}
+.dateselectoroption_container{max-width: 767px; margin:0 auto; width:100%;}
+.timeselector_container{max-width: 767px; margin:0 auto; padding:0 15px; width:100%;}
+.timeselectoroption_container{max-width: 767px; margin:0 auto; padding:0 15px; width:100%;}
+.doctor_box_area{padding: 15px 15px;text-align: center;}
+
+.hospitalpages .container .header_area{padding: 20px 0; padding-top: 30px; padding-bottom: 30px;}
+.hospitalpages .container .header_area .btn{width: 30px;height: 30px;border-radius: 5px;box-shadow: 0 0 10px #00000012;display: flex;align-items: center;justify-content: center;}
+.hospitalpages .container .header_area .btn img{max-width: 17px;}
+
+
+.searchbox_container h2{
+    color: #373C41;
+    font-size: 14px; 
+    text-align: left;
+    font-weight: 600;
+}
+.searchbox_container .searchbox{
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0px;
+    padding: 10px;
+    border: 1px solid #bec4c8;
+    border-radius: 8px;
+}
+.searchbox_container input[type=search]{
+    width: 85%;     
+    margin-left: 15px;
+    
+}
+.searchbox_container input[type=search]::placeholder {
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 85%;
+    text-align: left;
+    color:#77838F;
+}
+
+
+.dateselector_container{
+    margin-top: 10px;
+    padding: 15px 15px;
+}
+.dateselector_container h2{
+    color: #4a4e53;
+    font-size: 14px; 
+    text-align: left;
+    font-weight: 600;
+}
+.dateselector_container .dateselector{
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0px;
+    padding: 10px;
+    border: 1px solid #bec4c8;
+    border-radius: 8px;
+}
+.dateselector_container input[type=text]{
+    width: 85%;     
+    margin-left: 15px;
+}
+.dateselector_container input[type=text]::placeholder {
+    color: #6a6a6a;
+    font-size: 14px;
+    width: 85%;     
+    text-align: left;
+    font-weight: 600;
+}
+
+.dateselectoroption_container{
+    display: inline-flex;
+    margin-top: -15px;      
+    margin-bottom: 55px;      
+}
+.dateselectoroption_container .dateselectoroption{
+    text-align: center;
+    width: 10%;
+    height: 60px;
+    margin: 7px 7px;
+    padding: 15px;
+    border-radius: 8px; 
+}
+.dateselectoroption_container .dateselectoroption2{
+    text-align: center;
+    width: 12%;
+    height: 60px;
+    margin: 7px 7px;
+    padding: 15px;
+    border-radius: 8px; 
+    color: #df2d86;
+}
+.dateselectoroption_container .dateselectoroption .dateselectoroptions_lable{
+   
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dateselectoroption_container .dateselectoroption2 .dateoptions2{
+    background: #df2d86 !important;
+    border: 1px solid #df2d86 !important;    
+    color: #fff !important;
+    padding: 7px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.dateselectoroption_container .dateselectoroption2 .dateselectoroptions_lable2{
+    color: #df2d86;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.timeselector_container h2{
+    color: #4a4e53;
+    font-size: 14px; 
+    text-align: left;;
+    font-weight: 600;
+}
+.timeselector_container .timeselector{
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0px;
+    padding: 10px;
+    border: 1px solid #bec4c8;
+    border-radius: 8px;
+}
+.timeselector_container input[type=text]{
+    width: 85%;     
+    margin-left: 15px;
+}
+.timeselector_container input[type=text]::placeholder {
+    color: #6a6a6a;
+    font-size: 14px;
+    width: 85%;    
+    text-align: left; 
+    font-weight: 600;
+}
+
+.timeselectoroption_container{
+    margin-top: 30px;      
+}
+.timeselectoroption_container .timeselectoroption{
+    text-align: center;
+    width: 20%;
+    height: 40px;
+    margin: auto;
+    padding: 8px;
+    border: 1px solid #bec4c8;
+    border-radius: 8px;     
+    font-size: 14px; 
+}
+.timeselectoroption_container .timeselectoroption:hover{
+    background-color: #df2d86;
+    color: #fff;
+}
+
+
+
+.btn_area .apply_btn{
+    max-width: 65%;
+    width: 100%;
+    margin: 0px auto;
+    color: var(--White-color);
+    background: #df2d86;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 12px 0;
+    font-size: 20px;
+    font-weight: 500;
+}

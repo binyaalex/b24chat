@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+/*-----------------------------------------------------------------------------
+
+Prototype Version:  2.4
+
+*/
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-Medium.eot');
+    src: url('../fonts/Assistant-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-Medium.woff2') format('woff2'),
+         url('../fonts/Assistant-Medium.woff') format('woff'),
+         url('../fonts/Assistant-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-Light.eot');
+    src: url('../fonts/Assistant-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-Light.woff2') format('woff2'),
+         url('../fonts/Assistant-Light.woff') format('woff'),
+         url('../fonts/Assistant-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-Regular.eot');
+    src: url('../fonts/Assistant-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-Regular.woff2') format('woff2'),
+         url('../fonts/Assistant-Regular.woff') format('woff'),
+         url('../fonts/Assistant-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-ExtraLight.eot');
+    src: url('../fonts/Assistant-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-ExtraLight.woff2') format('woff2'),
+         url('../fonts/Assistant-ExtraLight.woff') format('woff'),
+         url('../fonts/Assistant-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-Bold.eot');
+    src: url('../fonts/Assistant-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-Bold.woff2') format('woff2'),
+         url('../fonts/Assistant-Bold.woff') format('woff'),
+         url('../fonts/Assistant-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-SemiBold.eot');
+    src: url('../fonts/Assistant-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-SemiBold.woff2') format('woff2'),
+         url('../fonts/Assistant-SemiBold.woff') format('woff'),
+         url('../fonts/Assistant-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-ExtraBold.eot');
+    src: url('../fonts/Assistant-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Assistant-ExtraBold.woff2') format('woff2'),
+         url('../fonts/Assistant-ExtraBold.woff') format('woff'),
+         url('../fonts/Assistant-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} /* Table of Contents----------------------------------------------------------------------------
+1. Clean Base
+2. Base Typography
+3. Images
+4. Links
+5. Forms
+6. Tables
+7. Framework
+*/
+:root{
+    --primary-color:#ff69b4;
+    --black-color:#000000;
+    --White-color:#ffffff;
+    --gray-color:#6a6a6a;
+}
+
+/* 1. Create a Clean Base
+------------------------------------------------------------------------------*/
+
+html, body, br, hr, div, span, a, object, iframe, ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, p, blockquote, q, address,
+small, big, cite, dfn, ins, del, i, em, b, strong, sup, sub, strike, pre, code, samp, kbd, var, tt, form, fieldset, legend, label,input, textarea, option, .nobox 
+{background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {display: block}
+
+blockquote, q {quotes: none;}
+br {height: 0;}
+ul, ol, dl, li {margin:0; padding:0;}
+html, body{height: 100%; -webkit-appearance:none; border:none; -webkit-text-size-adjust:none;}
+body{color: var(--gray-color); font-size: 18px; font-family: 'Helvetica';letter-spacing: 0.86px;}
+
+/* Class for clearing floats */
+.clear {clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;}
+.cf:after,.cf:before{display: table;content: ''}
+.cf:after{clear: both;}
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body,*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins';font-size: 20px;color: var(--gray-color)}
+/* 2. Define Base Typography
+------------------------------------------------------------------------------*/
+
+/* Create the Default Headers  */
+h1, h2, h3, h4, h5, h6 {margin: 0;font-weight: 700; color: var(--black-color);}
+/* Specific Header Settings */
+h1,.h1 {font-size: 26px;}
+h2,.h2 {font-size:18px; }
+h3,.h3 {font-size:40px; }
+h4,.h4 {font-size:30px;}
+h5,.h5 {font-size: 25px;}
+h6,.h6 {font-size: 18px;}
+
+/* Create the Default Paragraphs */
+p { margin-bottom: 20px;}
+
+/* Other Typo */
+strong {font-weight: bold;}
+hr {border:0 lightgray solid; border-top-width: 1px; clear: both; height: 0;opacity: 0.3;}
+ol {list-style: decimal;}
+ul {list-style: disc;}
+
+.unlisted{list-style: none;}
+/* 3. Images
+------------------------------------------------------------------------------*/
+
+/* Remove border around linked images */
+img {border: 0; border-style: none;max-width: 100%;}
+
+/* 4. Links
+------------------------------------------------------------------------------*/
+
+/* Default Link Types */
+a {color: var(--pink-color);text-decoration:none;}
+a:hover {color: var(--secondar-color);}
+a:active {color: #e8941a;}
+a:focus {outline: none;}
+a.current{color: #e8941a;}
+input,textarea{font-family: 'Assistant';}
+
+/* 5. Forms
+------------------------------------------------------------------------------*/
+
+input[type='submit']{ -webkit-appearance:none; border:none; -webkit-text-size-adjust:none; }
+select{-webkit-appearance:none; -moz-appearance:none; -o-appearance:none; appearance:none;}
+textarea{overflow:auto;}
+input:focus::placeholder{font-size: 0;}
+::-webkit-input-placeholder{ color: #000;}
+:-moz-placeholder{ color: #000;}
+::-moz-placeholder{ color: #000;}
+:-ms-input-placeholder{ color: #000;}
+::-ms-input-placeholder{ color: #000;}
+:placeholder-shown{ color: #000;}
+/* Removes fieldset borders. even on Opea 7 */
+fieldset {border: 1px solid transparent;}
+
+/* 6. Tables
+------------------------------------------------------------------------------*/
+
+/* Table Fixes */
+table {border-spacing: 0; border-collapse: collapse;}
+td {text-align: right; font-weight: normal;}
+
+
+/* 7. Framework ------------------------------------------------------------------------------*/ /* Common CSS */
+/*transition effect*/
+input,textarea,button,select{font-family: 'Helvetica';}
+button{border: none;outline: none;background: none;}
+
+a,.panner_box_inner .pannel_box,a::after,a::before ,.quick_area li,#btnmenu span::after,#btnmenu span::before,#btnmenu span{-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
+
+/* Page Layout */
+.container{max-width: 767px; margin:0 auto; padding:0 15px; width:100%;}
+/* .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;} */
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+.col-1{max-width:8.33333333%;}
+.col-2{max-width:16.66666667%;}
+.col-3{max-width:25%;}
+.col-4{max-width:33.33333333%;}
+.col-5{max-width:41.66666667%;}
+.col-6{max-width:50%;}
+.col-7{max-width:58.33333333%;}
+.col-8{max-width:66.66666667%;}
+.col-9{max-width:75%;}
+.col-10{max-width:83.33333333%;}
+.col-11{max-width:91.66666667%;}
+.col-12{max-width:100%;}
+
+
+.d-flex{display: flex;}
+.flex-wrap{flex-wrap: wrap;}
+.align-center{align-items: center;}
+.align-start{align-items: flex-start;}
+.align-end{align-items: flex-end;}
+.justify-center{justify-content: center;}
+.justify-start{justify-content: flex-start;}
+.justify-end{justify-content: flex-end;}
+.justify-between{justify-content: space-between;}
+
+
+/* Header Area */
+.header_area{padding: 20px 0;}
+.header_area .btn{width: 30px;height: 30px;border-radius: 5px;box-shadow: 0 0 10px #00000012;display: flex;align-items: center;justify-content: center;}
+.header_area .btn img{max-width: 17px;}
+
+/* Banner Section */
+/* .banner{width: 100%;height: 250px;background: url('../images/Dentistry_Pharmacy_Building.jpg');background-repeat: no-repeat;background-position: center;background-size: cover;position: relative;display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-end;} */
+.banner::after{width: 100%;height: 100%;content: '';position: absolute;top: 0;left: 0;background: #0000004f;}
+.banner .menu_btn{position: absolute;top: 0px;right: 5px;z-index: 1;}
+.banner_content{position: relative;z-index: 1;padding:  0  0 15px 10px;width: 100%;}
+.banner_content h1{color: var(--White-color);font-weight: 500;}
+.banner_content h6{color: var(--White-color);font-size: 17px;font-weight: 300;}
+
+/* Doctors secion */
+.doctorpage {
+    max-width: 428px;
+    width: 428px;
+}
+.doctors_sec{padding: 20px 0 10px;}
+.doctor_heading a{font-size: 16px;color: var(--primary-color);}
+.doctor_heading a img{margin-left: 3px;transition: all .5s ease;max-width: 11px;} 
+.doctor_heading h3{font-size: 17px;font-weight: 300;}
+.doctor_box .box_img{max-width: 65px; margin:  0 auto; width: 100%;border-radius: 100%; overflow: hidden;height: 65px;}
+.doctor_box_area{padding: 15px 0 0;text-align: center;}
+.doctor_box_area .col-3{padding:0 5px;}
+.doctor_box h6{font-size: 10px;margin: 5px 0 0;font-weight: 500;}
+.doctor_box p{font-size: 9px;margin: 0;}
+.doctor_box span{font-size: 12px;margin-top: 5px;margin-left: 5px;}
+
+/* Service box */
+.service_box_area{padding-top: 10px;}
+.service_box_area .service_box{display: flex;align-items: center;width: 100%;margin-bottom: 12px;}
+.service_box_area .service_box:last-child  .box_con{border: none;}
+.service_box .box_img{max-width: 80px;height: 70px;border-radius: 5px;width: 100%;overflow: hidden;}
+.service_box .box_img img{width: 100%;height: 100%;object-fit: cover;}
+.service_box .box_con{margin-left: 10px;width: calc(100% - 80px);padding-bottom: 10px;border-bottom: 1px solid #ebebeb;}
+.box_con h4{font-size: 15px;font-weight: 400;}
+.box_con p{font-size: 13px;margin: 0;}
+.box_con span{font-size: 15px;color: #df2d86;font-weight: 700;}
+
+/* Button */
+.box_btn { padding: 15px 0; box-shadow: 0 0 18px #00000042; background: var(--White-color);text-align: center; }
+.box_btn .go_btn{max-width: 65%;width: 100%;margin: 0 auto;color: var(--White-color);background: #df2d86;border-radius: 5px;display: inline-block;padding: 5px 0;font-size: 16px;font-weight: 500;}
+
+.doctor_banner{width: 100%;height: 550px;background: url('../images/Rectangle-Copy.png');background-repeat: no-repeat !important;background-position: center;background-size: cover;position: relative;display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-end;}
+.doctor_banner::after{width: 100%;height: 100%;content: '';position: absolute;top: 0;left: 0;background: #0000004f;}
+.doctor_banner .menu_btn{position: absolute;top: 0px;right: 5px;z-index: 1;}
+.banner_content small{color: var(--White-color);font-size: 15px;}
+.banner_content small i{color: #df2d86;}
+.banner_content .all_reviews{background: #df2d86;color: white;padding: 5px;border-radius: 5px;font-size: 15px;margin-right: 15px;}
+.doctor_banner .menu_btn{position: absolute;top: 10px;right: 20px;z-index: 1;}
+.back_arrow{position: absolute;top: 20px;left: 20px;z-index: 1;color: var(--White-color);}
+.doc_desc { font-size: 15px;margin-top: 10px !important;bottom: 10px !important;}
+
+.doctors_details_sec h6{font-size: 17px;font-weight: 300;}
+.doctors_details_sec p{font-size: 15px;margin-bottom: 10px;margin-top: 10px;color: #222B45;}
+
+
+.service_box .box_round_img{max-width: 40px;height: 40px;border-radius: 50%;width: 100%;overflow: hidden;}
+.service_box .box_round_img img{width: 100%;height: 100%;object-fit: cover;}
+.review_box h4{font-size: 15px;font-weight: 400;}
+.review_box p{font-size: 15px;margin: 0;}
+.review_box span{font-size: 13px;font-weight: 400;color: #C5CEE0;}
+.review_box .star i{color: #df2d86;font-size: 13px !important;}
+.review_box .star{font-size: 13px !important;}
+.box_con .star i{color: #df2d86;font-size: 13px !important;}
+.box_con .star{color: #8F9BB3;font-size: 13px !important;font-weight: 400;}
+
+.service_box_area .rating_box {background: #f4f4f4;padding: 10px;border-radius: 10px;}
+.service_box .review_box{border-bottom: none;width: 100%;}
+.service_box .review_box p{color: #8F9BB3;}
+
+.chat_icon{position: relative;right: 17px;float:right;}
+.chat_icon img{height: 60px;}
+.service_box_area .rating_box{align-items: unset;}
+.certificate{margin-top: 15px;margin-bottom: 15px;}
+
+p .fa-graduation-cap, p .fa-envelope{color:#df2d86}

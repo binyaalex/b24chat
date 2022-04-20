@@ -1,0 +1,61 @@
+.head {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 386px;
+  max-width: 428px;
+  height: 38px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 14px 11px 14px 7px;
+}
+
+.head > * {
+  font-size: 14px;
+}
+
+.headHeader {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.0625em;
+  line-height: 1.5625;
+}
+
+.menu {
+    display: none;
+    width: 355px;
+    height: 926px;
+    background-color: #BF2C7D;
+    opacity: 90%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 53%;
+    transform: translateX(-50%);
+    text-align: right;
+}
+
+.menuEsc {
+    height: 38px;
+    position: relative;
+    top: 34.5px;
+    right: 292px;
+}
+
+.mainList {
+  padding: 40px 31px 10px 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menuItemHeader {
+  font-size: 18px;
+  line-height: 1.39;
+  color: white;
+  font-weight: 400;
+}

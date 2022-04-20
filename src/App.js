@@ -6,6 +6,9 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import HospitalPage from './components/hospitalPage/Layouts/HospitalPage';
+import AppointmentPage from './components/appointmentPage/Layouts/AppointmentPage';
+import DoctorPage from './components/appointmentPage/Layouts/DoctorPage';
 
 function App() {
 	return (
@@ -13,6 +16,9 @@ function App() {
         <Routes>
             <Route path='/regularpage/*' element={<RegularPage />} />
             <Route path='/headpage/*' element={<HeadPage />} />
+            <Route path='/hospital/*' element={<HospitalPage />} />
+            <Route path='/appointment/*' element={<AppointmentPage />} />
+            <Route path='/doctor/*' element={<DoctorPage />} />
         </Routes>
     </BrowserRouter>
 	)
