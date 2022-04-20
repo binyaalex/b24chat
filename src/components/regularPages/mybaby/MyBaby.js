@@ -72,8 +72,12 @@ const MyBaby = ({setPageInfo}) => {
 				</section>
 				<UserSectionList />
 			</div>
-			<img onClick={displayAdd} className='plus' src="/images/myBaby/cross.png" width='30px' />
-			<i className="share fas fa-solid fa-share"></i>
+			<div>
+			<div className='fixedBtns' >
+				<img onClick={displayAdd} className='plus' src="/images/myBaby/cross.png" width='30px' />
+				<i className="share fas fa-solid fa-share"></i>
+			</div>
+			</div>
 			<Add displayAdd={displayAdd} />
 		</div>
 	)

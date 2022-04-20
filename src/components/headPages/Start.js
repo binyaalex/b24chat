@@ -1,7 +1,7 @@
 import './Start.css';
 import './Dates.css';
 import React, { useEffect } from 'react';
-import Dates from './Dates';
+// import Dates from './Dates';
 
 const Start = ({setPageInfo}) => {
 
@@ -32,7 +32,7 @@ const Start = ({setPageInfo}) => {
 				</div>
 			</div>
 			<button className='startSubmit' >לאישור</button>
-			<Dates />
+			{/* <Dates />*/}
 		</div>
 	)
 }

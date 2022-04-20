@@ -44,6 +44,9 @@ export const reducer = (state=initState, action={}) => {
 			console.log('ADDDATE')
 			const pickDateArr = document.querySelectorAll('.mbsc-selected')
 			const addDay = pickDateArr[0].textContent
+			if (addDay[0] === 'T') {
+				console.log(addDay)
+			}
 			const addMonth = pickDateArr[1].textContent
 			const addYear = pickDateArr[2].textContent
 			let newUserSectionsDateArr = [...state.userSectionsArr]
